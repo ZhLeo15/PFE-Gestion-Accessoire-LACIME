@@ -1,0 +1,4 @@
+.git
+docker/homeassistant/config
+docker/homeassistant/__pycache__
+docker/snipe-it/.env

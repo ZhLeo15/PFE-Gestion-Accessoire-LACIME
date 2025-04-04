@@ -1,0 +1,15 @@
+[Unit]
+Description=Link Snipe-IT inventory with Home Assistant
+After=network.target
+
+[Service]
+ExecStartPre=/bin/sleep 30
+User=antoine
+Group=antoine
+WorkingDirectory=/docker/homeassistant/
+ExecStart=uvicorn webhook_snipeit_to_homeassistant:app --port 8080 --host 192.168.50.115
+Restart=on-failure
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

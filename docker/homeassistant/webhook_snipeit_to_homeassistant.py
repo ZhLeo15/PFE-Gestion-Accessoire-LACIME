@@ -7,7 +7,7 @@ import re
 # === CONFIGURATION ===
 
 HA_URL = "http://localhost:8123"
-HA_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIzODhmOTlhZTM1NWI0ZThjOWQ3OWM4NGQyM2FmZjhhZCIsImlhdCI6MTc0MjY4NzczMCwiZXhwIjoyMDU4MDQ3NzMwfQ.CvUC4ISQ1u95DZ8kZXW7WGNEMtILBJtA88Mr8tW4vmU"
+HA_TOKEN = "API_KEY"
 
 # États cibles
 STATE_ON = "checked out"
